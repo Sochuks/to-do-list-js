@@ -4,12 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My To-do-list App</title>
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="dist/css/output.css">
 </head>
 <body>
-    <h1 class="text-red-200 text-4xl">working life</h1>
+
+    <!-- List-App -->
+    <div id="list-app" class="py-2 px-2">
+
+        <!--Flex container -->
+        <div class="flex flex-col mx-auto items-center justify-between py-6 px-6">
+
+            <!-- Heading -->
+            <div class="heading">   
+                <h1 class="text-primaryCol text-8xl">To Do List</h1>
+            </div>
+
+            <!-- todo list -->
+            <div class="todo-list bg-fiveCol p-5 rounded-md shadow">
+
+                <!-- List form top-->
+                <div class="list-form flex justify-between space-x-4">
+                    <!-- enter-input -->
+                    <input type="text" class="enter-input p-3 max-w-md rounded-md outline-none text-base" >
+                    
+                    <!-- add-list -->
+                    <button class="add-list border-none rounded-md px-2 text-base cursor-pointer text-white bg-primaryCol">
+                        Add</button>
+                </div>
+
+            </div>
+
+            <!-- Tasks -->
+            <div class="tasks mt-5 w-full">
+                <div class="item flex justify-between items-center rounded-md p-3 mb-3 shadow">
+                    <!-- Task Item -->
+                    <div class="text">
+                        Items here
+                    </div>
+
+                    <!-- Task action -->
+                    <div class="item-btn">
+                        <!-- edit -->
+                        <i class="bx bx-pencil">0</i>
+
+                        <!-- delete -->
+                        <i class="bx">X</i>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    
+
+    <!-- Scripts Arena -->
+    <script src="dist/js/app.js"></script>
 </body>
 </html>
