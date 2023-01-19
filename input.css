@@ -22,9 +22,10 @@
     font-size: 18px;
     cursor: pointer;
     padding: 10px;
+    color: #fff;
 }
 
-.item .completed{
+.completed{
     text-decoration: line-through;
     color: #11111180;
 }
