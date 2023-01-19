@@ -24,8 +24,8 @@ addBtn.addEventListener('click', ()  =>{
                         ${input.value}
                     </p>
                     <div class="item-btn">
-                        <i class="bx bx-pencil">0</i>
-                        <i class="bx">X</i>
+                        <i class="bx bx-edit-alt"></i>
+                        <i class="bx bx-x"></i>
                     </div>
         `
         task.appendChild(newItem);
