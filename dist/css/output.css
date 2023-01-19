@@ -578,22 +578,12 @@ video {
   align-items: center;
 }
 
-.justify-center {
-  justify-content: center;
-}
-
 .justify-between {
   justify-content: space-between;
 }
 
 .gap-3 {
   gap: 0.75rem;
-}
-
-.space-x-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
@@ -678,4 +668,16 @@ video {
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.item-btn i{
+  background-color: hsla(234, 100%, 66%, 1);
+  font-size: 18px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.item .completed{
+  text-decoration: line-through;
+  color: #11111180;
 }

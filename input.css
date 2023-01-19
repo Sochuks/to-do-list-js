@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.item-btn i{
+    background-color: hsla(234, 100%, 66%, 1);
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.item .completed{
+    text-decoration: line-through;
+    color: #11111180;
+}
