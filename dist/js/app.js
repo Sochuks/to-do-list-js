@@ -18,9 +18,19 @@ addBtn.addEventListener('click', ()  =>{
 
         // create new task
         newItem = document.createElement('div');
-        newItem.classList.add('item');
+        newItem.classList.add('item', 'shadow');
         newItem.innerHTML = `
-        
+        <p class="text-base font-semibold">
+                        ${input.value}
+                    </p>
+                    <div class="item-btn">
+                        <i class="bx bx-pencil">0</i>
+                        <i class="bx">X</i>
+                    </div>
         `
+        task.appendChild(newItem);
+        input.value = "";
+    }else{
+        alert("Please Input a Task!")
     }
 })
