@@ -2,7 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 12px;
+    margin-bottom: 12px;
+}
 
+.item-btn{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
 
 .item-btn i{
     background-color: hsla(234, 100%, 66%, 1);
